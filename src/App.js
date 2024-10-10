@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Daftar Mahasiswa</h1>
+      <h1 className='App-header'>Daftar Mahasiswa</h1>
       <ul style={styles.list}>
         {students.map((student, index) => (
           <li key={index} style={styles.listItem}>
